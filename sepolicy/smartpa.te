@@ -1,0 +1,7 @@
+type smartpa_exec, exec_type, file_type;
+type smartpa, domain;
+
+init_daemon_domain(smartpa)
+
+allow audioserver smartpa_device:chr_file rw_file_perms;
+
